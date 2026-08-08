@@ -234,7 +234,6 @@ class LearnViewModel(application: Application) : AndroidViewModel(application) {
 
             when (cognitionLevel) {
                 "familiar" -> {
-                    // 认识：正常跳下一个
                     repeatMap.remove(word.id)
                     if (idx + 1 < list.size) {
                         _currentIndex.postValue(idx + 1)
@@ -243,18 +242,16 @@ class LearnViewModel(application: Application) : AndroidViewModel(application) {
                     }
                 }
                 "vague", "unknown" -> {
-                    // 不认识/模糊：放回队列尾部重复
                     val remaining = repeatMap.getOrDefault(word.id, if (cognitionLevel == "unknown") 3 else 2)
                     if (remaining > 0) {
                         repeatMap[word.id] = remaining - 1
-                        // 把当前词移到队列尾部
                         val mutableList = list.toMutableList()
                         mutableList.removeAt(idx)
                         mutableList.add(word)
                         _wordList.postValue(mutableList)
-                        _currentIndex.postValue(mutableList.size - 1)
+                        // idx不变：当前位置已被下一个词填充，自然跳到下一个词
+                        _currentIndex.postValue(idx)
                     } else {
-                        // 重复次数用完，正常跳下一个
                         repeatMap.remove(word.id)
                         if (idx + 1 < list.size) {
                             _currentIndex.postValue(idx + 1)
@@ -267,17 +264,12 @@ class LearnViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
-    /** 检查本轮学习是否完成（所有新词+重复词都已处理） */
     private fun checkSessionComplete(list: List<Word>) {
+        // 只有重复队列完全清空才算真正完成
         if (repeatMap.isEmpty()) {
             _showCompleteDialog.postValue(true)
-        } else {
-            // 还有重复词没处理完，提示继续
-            val remaining = repeatMap.size
-            // repeatMap中都是还没到上限的词，但他们已经不在list尾部了
-            // 实际上上面的逻辑已经把词放回尾部了，所以到这里说明全部处理完
-            _showCompleteDialog.postValue(true)
         }
+        // repeatMap不为空说明还有词在排队，不弹完成提示
     }
 
     /**
