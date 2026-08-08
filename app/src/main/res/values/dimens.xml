@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 8dp 基准间距体系 -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_2xl">48dp</dimen>
+
+    <!-- 卡片圆角 -->
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_corner_radius_sm">8dp</dimen>
+    <dimen name="card_corner_radius_lg">24dp</dimen>
+
+    <!-- 按钮圆角 -->
+    <dimen name="button_corner_radius">12dp</dimen>
+
+    <!-- 字号（仅用于代码中动态设置，XML布局中通过 TextAppearance 使用） -->
+    <dimen name="text_size_word">36sp</dimen>
+    <dimen name="text_size_page_title">22sp</dimen>
+    <dimen name="text_size_subtitle">16sp</dimen>
+    <dimen name="text_size_meaning">20sp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="text_size_caption">12sp</dimen>
+    <dimen name="text_size_button">14sp</dimen>
+    <dimen name="text_size_phonetic">16sp</dimen>
+    <dimen name="text_size_stat_number">28sp</dimen>
+
+    <!-- 底部导航栏高度 -->
+    <dimen name="bottom_nav_height">80dp</dimen>
+
+    <!-- 进度条高度 -->
+    <dimen name="progress_bar_height">4dp</dimen>
+
+    <!-- 认知标记按钮高度 -->
+    <dimen name="cognition_button_height">48dp</dimen>
+</resources>

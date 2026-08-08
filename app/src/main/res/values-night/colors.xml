@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 教育主题配色 - 深色模式 -->
+    <color name="md_theme_primary">#90CAF9</color>
+    <color name="md_theme_on_primary">#000000</color>
+    <color name="md_theme_primary_container">#1A3A5C</color>
+    <color name="md_theme_on_primary_container">#D3E3FD</color>
+
+    <!-- 辅助紫 - 深色模式 -->
+    <color name="md_theme_secondary">#B388FF</color>
+    <color name="md_theme_on_secondary">#1F1F1F</color>
+    <color name="md_theme_secondary_container">#2C1F4E</color>
+    <color name="md_theme_on_secondary_container">#E8DEFF</color>
+
+    <!-- 提醒红 - 深色模式 -->
+    <color name="md_theme_tertiary">#FF8A80</color>
+    <color name="md_theme_on_tertiary">#1F1F1F</color>
+    <color name="md_theme_tertiary_container">#4E1010</color>
+    <color name="md_theme_on_tertiary_container">#FFDADA</color>
+
+    <color name="md_theme_surface">#1E1E1E</color>
+    <color name="md_theme_surface_variant">#2C2C2C</color>
+    <color name="md_theme_on_surface">#E0E0E0</color>
+    <color name="md_theme_on_surface_variant">#9E9E9E</color>
+
+    <color name="md_theme_background">#121212</color>
+    <color name="md_theme_on_background">#E0E0E0</color>
+
+    <color name="md_theme_outline">#3C3C3C</color>
+    <color name="md_theme_outline_variant">#4C4C4C</color>
+
+    <color name="md_theme_error">#F28B82</color>
+    <color name="md_theme_on_error">#1F1F1F</color>
+    <color name="md_theme_error_container">#3C1010</color>
+    <color name="md_theme_on_error_container">#F28B82</color>
+
+    <!-- 渐变色（深色模式） -->
+    <color name="gradient_start">#1A5276</color>
+    <color name="gradient_end">#4A2D7A</color>
+
+    <!-- 每日一句卡片半透明背景 - 深色模式 -->
+    <color name="quote_card_bg">#2C2C4A</color>
+    <color name="quote_card_bg_night">#2C2C4A</color>
+
+    <!-- 语义色彩 - 深色模式 -->
+    <color name="semantic_familiar">#81C995</color>
+    <color name="semantic_vague">#FFD54F</color>
+    <color name="semantic_unknown">#F28B82</color>
+    <color name="semantic_streak">#90CAF9</color>
+    <color name="semantic_studying">#B388FF</color>
+
+    <!-- 学习统计卡片颜色 - 深色模式 -->
+    <color name="stat_card_days">#64B5F6</color>
+    <color name="stat_card_words">#B388FF</color>
+    <color name="stat_card_today">#80CBC4</color>
+    <color name="stat_card_streak">#FF8A65</color>
+</resources>

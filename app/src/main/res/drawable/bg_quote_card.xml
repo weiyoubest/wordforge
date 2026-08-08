@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 每日一句半透明背景卡片 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/quote_card_bg" />
+    <corners android:radius="@dimen/card_corner_radius" />
+</shape>

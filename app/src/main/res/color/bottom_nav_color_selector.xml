@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 选中状态使用 Primary 色 -->
+    <item android:color="@color/md_theme_primary" android:state_checked="true" />
+    <!-- 未选中使用 onSurfaceVariant -->
+    <item android:color="@color/md_theme_on_surface_variant" />
+</selector>

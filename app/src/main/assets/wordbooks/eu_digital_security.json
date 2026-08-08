@@ -1,0 +1,1282 @@
+{
+  "name": "欧盟数字安全术语",
+  "count": 319,
+  "words": [
+    {
+      "word": "72-hour Notification",
+      "meaning": "72小时通知义务"
+    },
+    {
+      "word": "AI Act",
+      "meaning": "人工智能法案"
+    },
+    {
+      "word": "AI Authorised Representative",
+      "meaning": "AI授权代表"
+    },
+    {
+      "word": "AI Deployer",
+      "meaning": "AI部署者（欧盟AI法案新角色）"
+    },
+    {
+      "word": "AI Governance",
+      "meaning": "AI治理"
+    },
+    {
+      "word": "AI Importer",
+      "meaning": "AI进口者"
+    },
+    {
+      "word": "AI Liability",
+      "meaning": "AI责任（欧盟AI责任指令）"
+    },
+    {
+      "word": "AI Manufacturer",
+      "meaning": "AI制造商"
+    },
+    {
+      "word": "AI Office",
+      "meaning": "AI办公室（欧盟委员会下设）"
+    },
+    {
+      "word": "AI Operator",
+      "meaning": "AI运营者"
+    },
+    {
+      "word": "AI Provider",
+      "meaning": "AI提供者（欧盟AI法案角色）"
+    },
+    {
+      "word": "AI Regulation",
+      "meaning": "AI监管"
+    },
+    {
+      "word": "AI Sandbox",
+      "meaning": "AI沙盒（监管沙盒）"
+    },
+    {
+      "word": "AI System",
+      "meaning": "人工智能系统"
+    },
+    {
+      "word": "AI Transparency",
+      "meaning": "AI透明度"
+    },
+    {
+      "word": "Access Control",
+      "meaning": "访问控制"
+    },
+    {
+      "word": "Accountability",
+      "meaning": "问责制"
+    },
+    {
+      "word": "Accuracy",
+      "meaning": "准确性（数据质量原则）"
+    },
+    {
+      "word": "Adequacy Decision",
+      "meaning": "充分性认定"
+    },
+    {
+      "word": "Administrative Fine",
+      "meaning": "行政处罚"
+    },
+    {
+      "word": "Adversarial Attack",
+      "meaning": "对抗攻击（AI安全）"
+    },
+    {
+      "word": "Algorithm",
+      "meaning": "算法"
+    },
+    {
+      "word": "Algorithmic Accountability",
+      "meaning": "算法问责"
+    },
+    {
+      "word": "Algorithmic Bias",
+      "meaning": "算法偏见"
+    },
+    {
+      "word": "Algorithmic Transparency",
+      "meaning": "算法透明度"
+    },
+    {
+      "word": "Anonymisation",
+      "meaning": "匿名化"
+    },
+    {
+      "word": "Appropriate Safeguards",
+      "meaning": "适当保障措施"
+    },
+    {
+      "word": "Audit Trail",
+      "meaning": "审计追踪"
+    },
+    {
+      "word": "Authentication",
+      "meaning": "身份认证"
+    },
+    {
+      "word": "Authorisation",
+      "meaning": "授权"
+    },
+    {
+      "word": "Automated Decision Making",
+      "meaning": "自动化决策"
+    },
+    {
+      "word": "Automated Individual Decision",
+      "meaning": "自动化个人决策"
+    },
+    {
+      "word": "Bias Detection",
+      "meaning": "偏见检测（AI）"
+    },
+    {
+      "word": "Binding Corporate Rules",
+      "meaning": "绑定公司规则 (BCRs)"
+    },
+    {
+      "word": "Binding Instrument",
+      "meaning": "具有约束力的文书"
+    },
+    {
+      "word": "Biometric Authentication",
+      "meaning": "生物识别认证"
+    },
+    {
+      "word": "Biometric Data",
+      "meaning": "生物识别数据"
+    },
+    {
+      "word": "Blockchain",
+      "meaning": "区块链"
+    },
+    {
+      "word": "Breach Notification",
+      "meaning": "泄露通知"
+    },
+    {
+      "word": "Business Continuity",
+      "meaning": "业务连续性"
+    },
+    {
+      "word": "CCTV",
+      "meaning": "闭路电视监控（公共场所生物识别相关）"
+    },
+    {
+      "word": "CE Marking",
+      "meaning": "CE标志"
+    },
+    {
+      "word": "CIPP/E",
+      "meaning": "CIPP/E认证（IAPP欧洲隐私认证）"
+    },
+    {
+      "word": "Certification",
+      "meaning": "认证"
+    },
+    {
+      "word": "Certification Mechanism",
+      "meaning": "认证机制"
+    },
+    {
+      "word": "Cloud Service",
+      "meaning": "云服务"
+    },
+    {
+      "word": "Code of Conduct",
+      "meaning": "行为准则"
+    },
+    {
+      "word": "Competent Authority",
+      "meaning": "主管机构"
+    },
+    {
+      "word": "Computer Vision",
+      "meaning": "计算机视觉"
+    },
+    {
+      "word": "Conformity Assessment",
+      "meaning": "合格评定"
+    },
+    {
+      "word": "Consent",
+      "meaning": "同意（数据处理的合法基础之一）"
+    },
+    {
+      "word": "Controller",
+      "meaning": "控制者"
+    },
+    {
+      "word": "Cookie",
+      "meaning": "Cookie/小型文本文件"
+    },
+    {
+      "word": "Cookie Consent",
+      "meaning": "Cookie同意"
+    },
+    {
+      "word": "Cross-border Data Flow",
+      "meaning": "跨境数据流"
+    },
+    {
+      "word": "Cross-border Transfer",
+      "meaning": "跨境数据传输"
+    },
+    {
+      "word": "Cybersecurity",
+      "meaning": "网络安全"
+    },
+    {
+      "word": "DPA",
+      "meaning": "数据保护机构 (Data Protection Authority)"
+    },
+    {
+      "word": "DPIA",
+      "meaning": "数据保护影响评估 (Data Protection Impact Assessment)"
+    },
+    {
+      "word": "DPO",
+      "meaning": "数据保护官 (Data Protection Officer)"
+    },
+    {
+      "word": "Data Altruism",
+      "meaning": "数据利他主义"
+    },
+    {
+      "word": "Data Anonymisation",
+      "meaning": "数据匿名化"
+    },
+    {
+      "word": "Data Breach",
+      "meaning": "数据泄露"
+    },
+    {
+      "word": "Data Classification",
+      "meaning": "数据分类"
+    },
+    {
+      "word": "Data Controller",
+      "meaning": "数据控制者"
+    },
+    {
+      "word": "Data Controller Processor",
+      "meaning": "数据控制者与处理者"
+    },
+    {
+      "word": "Data De-identification",
+      "meaning": "数据去标识化"
+    },
+    {
+      "word": "Data Erasure",
+      "meaning": "数据擦除/删除"
+    },
+    {
+      "word": "Data Ethics",
+      "meaning": "数据伦理"
+    },
+    {
+      "word": "Data Exchange",
+      "meaning": "数据交换"
+    },
+    {
+      "word": "Data Export",
+      "meaning": "数据导出"
+    },
+    {
+      "word": "Data Exporter",
+      "meaning": "数据出口方"
+    },
+    {
+      "word": "Data Fiduciary",
+      "meaning": "数据受托人"
+    },
+    {
+      "word": "Data Flow",
+      "meaning": "数据流"
+    },
+    {
+      "word": "Data Governance",
+      "meaning": "数据治理"
+    },
+    {
+      "word": "Data Governance Act",
+      "meaning": "数据治理法 (DGA)"
+    },
+    {
+      "word": "Data Import",
+      "meaning": "数据导入"
+    },
+    {
+      "word": "Data Importer",
+      "meaning": "数据进口方"
+    },
+    {
+      "word": "Data Intermediary",
+      "meaning": "数据中介"
+    },
+    {
+      "word": "Data Inventory",
+      "meaning": "数据清单"
+    },
+    {
+      "word": "Data Lineage",
+      "meaning": "数据血缘/谱系"
+    },
+    {
+      "word": "Data Literacy",
+      "meaning": "数据素养"
+    },
+    {
+      "word": "Data Localization",
+      "meaning": "数据本地化"
+    },
+    {
+      "word": "Data Localization Requirement",
+      "meaning": "数据本地化要求"
+    },
+    {
+      "word": "Data Loss Prevention",
+      "meaning": "数据防泄漏 (DLP)"
+    },
+    {
+      "word": "Data Mapping",
+      "meaning": "数据映射"
+    },
+    {
+      "word": "Data Marketplace",
+      "meaning": "数据市场"
+    },
+    {
+      "word": "Data Masking",
+      "meaning": "数据脱敏"
+    },
+    {
+      "word": "Data Minimisation",
+      "meaning": "数据最小化"
+    },
+    {
+      "word": "Data Poisoning",
+      "meaning": "数据投毒（AI安全攻击）"
+    },
+    {
+      "word": "Data Pooling",
+      "meaning": "数据池"
+    },
+    {
+      "word": "Data Portability",
+      "meaning": "数据可携性"
+    },
+    {
+      "word": "Data Processing Agreement",
+      "meaning": "数据处理协议 (DPA)"
+    },
+    {
+      "word": "Data Processor",
+      "meaning": "数据处理者"
+    },
+    {
+      "word": "Data Protection",
+      "meaning": "数据保护"
+    },
+    {
+      "word": "Data Protection Agency",
+      "meaning": "数据保护机构"
+    },
+    {
+      "word": "Data Protection Clause",
+      "meaning": "数据保护条款"
+    },
+    {
+      "word": "Data Protection Directive",
+      "meaning": "数据保护指令（95/46/EC，GDPR前身）"
+    },
+    {
+      "word": "Data Protection Impact",
+      "meaning": "数据保护影响"
+    },
+    {
+      "word": "Data Protection Impact Assessment",
+      "meaning": "数据保护影响评估"
+    },
+    {
+      "word": "Data Protection Law",
+      "meaning": "数据保护法"
+    },
+    {
+      "word": "Data Protection Officer",
+      "meaning": "数据保护官 (DPO)"
+    },
+    {
+      "word": "Data Protection Regulation",
+      "meaning": "数据保护条例"
+    },
+    {
+      "word": "Data Protection Seal",
+      "meaning": "数据保护认证标志"
+    },
+    {
+      "word": "Data Protection by Default",
+      "meaning": "默认数据保护"
+    },
+    {
+      "word": "Data Protection by Design",
+      "meaning": "设计中的数据保护"
+    },
+    {
+      "word": "Data Provenance",
+      "meaning": "数据来源"
+    },
+    {
+      "word": "Data Quality",
+      "meaning": "数据质量"
+    },
+    {
+      "word": "Data Residency",
+      "meaning": "数据驻留"
+    },
+    {
+      "word": "Data Retention",
+      "meaning": "数据保留"
+    },
+    {
+      "word": "Data Sharing",
+      "meaning": "数据共享"
+    },
+    {
+      "word": "Data Sovereignty",
+      "meaning": "数据主权"
+    },
+    {
+      "word": "Data Space",
+      "meaning": "数据空间"
+    },
+    {
+      "word": "Data Stewardship",
+      "meaning": "数据管理权"
+    },
+    {
+      "word": "Data Subject",
+      "meaning": "数据主体"
+    },
+    {
+      "word": "Data Subject Access Request",
+      "meaning": "数据主体访问请求 (DSAR)"
+    },
+    {
+      "word": "Data Subject Request",
+      "meaning": "数据主体请求 (DSR)"
+    },
+    {
+      "word": "Data Subject Rights",
+      "meaning": "数据主体权利"
+    },
+    {
+      "word": "Data Trust",
+      "meaning": "数据信托"
+    },
+    {
+      "word": "Deep Learning",
+      "meaning": "深度学习"
+    },
+    {
+      "word": "Differential Privacy",
+      "meaning": "差分隐私"
+    },
+    {
+      "word": "Digital Identity",
+      "meaning": "数字身份"
+    },
+    {
+      "word": "Digital Literacy",
+      "meaning": "数字素养"
+    },
+    {
+      "word": "Digital Markets Act",
+      "meaning": "数字市场法 (DMA)"
+    },
+    {
+      "word": "Digital Rights",
+      "meaning": "数字权利"
+    },
+    {
+      "word": "Digital Services Act",
+      "meaning": "数字服务法 (DSA)"
+    },
+    {
+      "word": "Digital Signature",
+      "meaning": "数字签名"
+    },
+    {
+      "word": "Digital Twin",
+      "meaning": "数字孪生"
+    },
+    {
+      "word": "Digital Wellbeing",
+      "meaning": "数字福祉"
+    },
+    {
+      "word": "Disaster Recovery",
+      "meaning": "灾难恢复"
+    },
+    {
+      "word": "EDPB",
+      "meaning": "欧洲数据保护委员会 (European Data Protection Board)"
+    },
+    {
+      "word": "EDPS",
+      "meaning": "欧洲数据保护监督官 (European Data Protection Supervisor)"
+    },
+    {
+      "word": "Edge Computing",
+      "meaning": "边缘计算"
+    },
+    {
+      "word": "Emotion Recognition",
+      "meaning": "情感识别（AI法案禁止特定场景）"
+    },
+    {
+      "word": "Encryption",
+      "meaning": "加密"
+    },
+    {
+      "word": "End-to-end Encryption",
+      "meaning": "端到端加密"
+    },
+    {
+      "word": "European AI Office",
+      "meaning": "欧洲AI办公室"
+    },
+    {
+      "word": "European Data Innovation Board",
+      "meaning": "欧洲数据创新委员会 (EDIB)"
+    },
+    {
+      "word": "European Data Protection Seal",
+      "meaning": "欧洲数据保护认证标志"
+    },
+    {
+      "word": "European Health Data Space",
+      "meaning": "欧洲健康数据空间"
+    },
+    {
+      "word": "Explainability",
+      "meaning": "可解释性（AI）"
+    },
+    {
+      "word": "Explainable AI",
+      "meaning": "可解释AI (XAI)"
+    },
+    {
+      "word": "Explicit Consent",
+      "meaning": "明确同意"
+    },
+    {
+      "word": "Facial Recognition",
+      "meaning": "面部识别"
+    },
+    {
+      "word": "Fairness",
+      "meaning": "公平性（AI伦理）"
+    },
+    {
+      "word": "Federated Learning",
+      "meaning": "联邦学习"
+    },
+    {
+      "word": "Fingerprint Recognition",
+      "meaning": "指纹识别"
+    },
+    {
+      "word": "Fog Computing",
+      "meaning": "雾计算"
+    },
+    {
+      "word": "Foundation Model",
+      "meaning": "基础模型"
+    },
+    {
+      "word": "Freedom of Expression",
+      "meaning": "表达自由"
+    },
+    {
+      "word": "Fundamental Rights",
+      "meaning": "基本权利"
+    },
+    {
+      "word": "GDPR",
+      "meaning": "通用数据保护条例 (General Data Protection Regulation)"
+    },
+    {
+      "word": "GPAI Model",
+      "meaning": "通用AI模型 (GPAI)"
+    },
+    {
+      "word": "General-purpose AI",
+      "meaning": "通用AI (GPAI)"
+    },
+    {
+      "word": "Genetic Data",
+      "meaning": "基因数据"
+    },
+    {
+      "word": "HIPAA",
+      "meaning": "美国健康保险可携性和责任法案（对比参考）"
+    },
+    {
+      "word": "Health Data",
+      "meaning": "健康数据"
+    },
+    {
+      "word": "High-risk AI System",
+      "meaning": "高风险AI系统"
+    },
+    {
+      "word": "High-risk Area",
+      "meaning": "高风险领域（AI法案附件III）"
+    },
+    {
+      "word": "Homomorphic Encryption",
+      "meaning": "同态加密"
+    },
+    {
+      "word": "Human Oversight",
+      "meaning": "人工监督"
+    },
+    {
+      "word": "Human Rights",
+      "meaning": "人权"
+    },
+    {
+      "word": "IAPP",
+      "meaning": "国际隐私专业人员协会 (IAPP)"
+    },
+    {
+      "word": "Incident Response",
+      "meaning": "事件响应"
+    },
+    {
+      "word": "Integrity and Confidentiality",
+      "meaning": "完整性和保密性"
+    },
+    {
+      "word": "International Transfer",
+      "meaning": "国际传输"
+    },
+    {
+      "word": "IoT",
+      "meaning": "物联网 (Internet of Things)"
+    },
+    {
+      "word": "Joint Controller",
+      "meaning": "联合控制者"
+    },
+    {
+      "word": "Key Management",
+      "meaning": "密钥管理"
+    },
+    {
+      "word": "Lawful Basis",
+      "meaning": "合法基础"
+    },
+    {
+      "word": "Legal Person",
+      "meaning": "法人"
+    },
+    {
+      "word": "Legitimate Interest",
+      "meaning": "合法权益（处理合法基础之一）"
+    },
+    {
+      "word": "Liability",
+      "meaning": "责任/赔偿责任"
+    },
+    {
+      "word": "Linked Data",
+      "meaning": "关联数据"
+    },
+    {
+      "word": "Machine Learning",
+      "meaning": "机器学习"
+    },
+    {
+      "word": "Manipulation",
+      "meaning": "操纵（AI法案禁止：利用AI漏洞操纵行为）"
+    },
+    {
+      "word": "Metadata",
+      "meaning": "元数据"
+    },
+    {
+      "word": "Model Contracts",
+      "meaning": "示范合同条款（标准合同条款的旧称）"
+    },
+    {
+      "word": "Model Drift",
+      "meaning": "模型漂移"
+    },
+    {
+      "word": "Model Validation",
+      "meaning": "模型验证"
+    },
+    {
+      "word": "Multi-factor Authentication",
+      "meaning": "多因素认证 (MFA)"
+    },
+    {
+      "word": "NIS2 Directive",
+      "meaning": "网络与信息安全指令第二版"
+    },
+    {
+      "word": "Natural Language Processing",
+      "meaning": "自然语言处理 (NLP)"
+    },
+    {
+      "word": "Natural Person",
+      "meaning": "自然人"
+    },
+    {
+      "word": "Necessity",
+      "meaning": "必要性原则"
+    },
+    {
+      "word": "Neural Network",
+      "meaning": "神经网络"
+    },
+    {
+      "word": "Non-discrimination",
+      "meaning": "非歧视原则"
+    },
+    {
+      "word": "Non-repudiation",
+      "meaning": "不可否认性"
+    },
+    {
+      "word": "Notified Body",
+      "meaning": "公告机构"
+    },
+    {
+      "word": "Open Data",
+      "meaning": "开放数据"
+    },
+    {
+      "word": "Penetration Testing",
+      "meaning": "渗透测试"
+    },
+    {
+      "word": "Performance-based Risk",
+      "meaning": "基于性能的风险（AI分类方法）"
+    },
+    {
+      "word": "Personal Data",
+      "meaning": "个人数据"
+    },
+    {
+      "word": "Personal Data Breach",
+      "meaning": "个人数据泄露"
+    },
+    {
+      "word": "Post-market Monitoring",
+      "meaning": "上市后监控"
+    },
+    {
+      "word": "Post-quantum Cryptography",
+      "meaning": "后量子密码学"
+    },
+    {
+      "word": "Precautionary Principle",
+      "meaning": "预防原则"
+    },
+    {
+      "word": "Predictive Policing",
+      "meaning": "预测性警务（AI法案高风险场景）"
+    },
+    {
+      "word": "Privacy",
+      "meaning": "隐私/隐私权"
+    },
+    {
+      "word": "Privacy Shield",
+      "meaning": "隐私盾协议（已失效的美欧数据传输框架）"
+    },
+    {
+      "word": "Privacy by Default",
+      "meaning": "默认隐私"
+    },
+    {
+      "word": "Privacy by Design",
+      "meaning": "隐私设计"
+    },
+    {
+      "word": "Private Entity",
+      "meaning": "私营实体"
+    },
+    {
+      "word": "Processing",
+      "meaning": "处理（个人数据操作）"
+    },
+    {
+      "word": "Processor Binding",
+      "meaning": "处理者约束（SCCs要求）"
+    },
+    {
+      "word": "Profiling",
+      "meaning": "用户画像/分析"
+    },
+    {
+      "word": "Prohibited AI Practice",
+      "meaning": "禁止的AI实践"
+    },
+    {
+      "word": "Proportionality",
+      "meaning": "比例原则"
+    },
+    {
+      "word": "Pseudonymisation",
+      "meaning": "假名化"
+    },
+    {
+      "word": "Public Authority",
+      "meaning": "公共机构"
+    },
+    {
+      "word": "Purpose Limitation",
+      "meaning": "目的限定"
+    },
+    {
+      "word": "Quantum Computing",
+      "meaning": "量子计算"
+    },
+    {
+      "word": "Real-time Biometric Identification",
+      "meaning": "实时生物识别分类（AI法案高风险实践）"
+    },
+    {
+      "word": "Recipient",
+      "meaning": "接收方"
+    },
+    {
+      "word": "Regulatory Sandbox",
+      "meaning": "监管沙盒"
+    },
+    {
+      "word": "Reinforcement Learning",
+      "meaning": "强化学习"
+    },
+    {
+      "word": "Remedies",
+      "meaning": "救济措施"
+    },
+    {
+      "word": "Remote Biometric Identification",
+      "meaning": "远程生物识别"
+    },
+    {
+      "word": "Right to Access",
+      "meaning": "访问权"
+    },
+    {
+      "word": "Right to Data Portability",
+      "meaning": "数据可携权"
+    },
+    {
+      "word": "Right to Erasure",
+      "meaning": "被遗忘权/删除权"
+    },
+    {
+      "word": "Right to Object",
+      "meaning": "反对权"
+    },
+    {
+      "word": "Right to Rectification",
+      "meaning": "更正权"
+    },
+    {
+      "word": "Right to Restrict Processing",
+      "meaning": "限制处理权"
+    },
+    {
+      "word": "Right to be Informed",
+      "meaning": "知情权"
+    },
+    {
+      "word": "Risk Assessment",
+      "meaning": "风险评估"
+    },
+    {
+      "word": "Risk Management",
+      "meaning": "风险管理"
+    },
+    {
+      "word": "Robustness",
+      "meaning": "鲁棒性（AI）"
+    },
+    {
+      "word": "Sanctions",
+      "meaning": "制裁/处罚"
+    },
+    {
+      "word": "Schrems II",
+      "meaning": "Schrems II 判决（C-311/18，废除隐私盾）"
+    },
+    {
+      "word": "Secure Multi-party Computation",
+      "meaning": "安全多方计算"
+    },
+    {
+      "word": "Secure Sockets Layer",
+      "meaning": "安全套接层 (SSL)"
+    },
+    {
+      "word": "Security Incident",
+      "meaning": "安全事件"
+    },
+    {
+      "word": "Security by Default",
+      "meaning": "默认安全"
+    },
+    {
+      "word": "Security by Design",
+      "meaning": "设计安全"
+    },
+    {
+      "word": "Sensitive Data",
+      "meaning": "敏感数据"
+    },
+    {
+      "word": "Significant Harm",
+      "meaning": "重大损害"
+    },
+    {
+      "word": "Smart Contract",
+      "meaning": "智能合约"
+    },
+    {
+      "word": "Social Scoring",
+      "meaning": "社会评分（AI法案禁止实践）"
+    },
+    {
+      "word": "Special Categories of Data",
+      "meaning": "特殊类别数据"
+    },
+    {
+      "word": "Standard Contractual Clauses",
+      "meaning": "标准合同条款 (SCCs)"
+    },
+    {
+      "word": "Storage Limitation",
+      "meaning": "存储限制"
+    },
+    {
+      "word": "Sub-processor",
+      "meaning": "子处理者"
+    },
+    {
+      "word": "Supervised Learning",
+      "meaning": "监督学习"
+    },
+    {
+      "word": "Supervision",
+      "meaning": "监督"
+    },
+    {
+      "word": "Supervisory Authority",
+      "meaning": "监管机构"
+    },
+    {
+      "word": "Supervisory Authority Notification",
+      "meaning": "监管机构通知"
+    },
+    {
+      "word": "Supplementary Measures",
+      "meaning": "补充措施（国际传输保障）"
+    },
+    {
+      "word": "Synthetic Data",
+      "meaning": "合成数据"
+    },
+    {
+      "word": "Systematic Risk",
+      "meaning": "系统性风险"
+    },
+    {
+      "word": "Systemic GPAI Model",
+      "meaning": "具有系统性风险的GPAI模型"
+    },
+    {
+      "word": "Technical Documentation",
+      "meaning": "技术文档"
+    },
+    {
+      "word": "Test Dataset",
+      "meaning": "测试数据集"
+    },
+    {
+      "word": "Third Country",
+      "meaning": "第三国"
+    },
+    {
+      "word": "Third Party",
+      "meaning": "第三方"
+    },
+    {
+      "word": "Tokenisation",
+      "meaning": "令牌化"
+    },
+    {
+      "word": "Training Data",
+      "meaning": "训练数据"
+    },
+    {
+      "word": "Training Dataset",
+      "meaning": "训练数据集"
+    },
+    {
+      "word": "Transfer Impact Assessment",
+      "meaning": "传输影响评估 (TIA)"
+    },
+    {
+      "word": "Transparency",
+      "meaning": "透明度"
+    },
+    {
+      "word": "Transport Layer Security",
+      "meaning": "传输层安全 (TLS)"
+    },
+    {
+      "word": "Two-factor Authentication",
+      "meaning": "双因素认证 (2FA)"
+    },
+    {
+      "word": "Unacceptable Risk",
+      "meaning": "不可接受风险（AI分类）"
+    },
+    {
+      "word": "Unsupervised Learning",
+      "meaning": "无监督学习"
+    },
+    {
+      "word": "Validation Dataset",
+      "meaning": "验证数据集"
+    },
+    {
+      "word": "Voice Recognition",
+      "meaning": "语音识别"
+    },
+    {
+      "word": "Vulnerability Assessment",
+      "meaning": "漏洞评估"
+    },
+    {
+      "word": "Withdrawal of Consent",
+      "meaning": "撤回同意"
+    },
+    {
+      "word": "Zero-knowledge Proof",
+      "meaning": "零知识证明"
+    },
+    {
+      "word": "ePrivacy Directive",
+      "meaning": "隐私与电子通信指令"
+    },
+    {
+      "word": "ADCO",
+      "meaning": "反歧视与多元化委员会"
+    },
+    {
+      "word": "AI",
+      "meaning": "人工智能（Artificial Intelligence）"
+    },
+    {
+      "word": "API",
+      "meaning": "应用程序接口（Application Programming Interface）"
+    },
+    {
+      "word": "CE",
+      "meaning": "欧洲合格认证（Conformité Européenne）"
+    },
+    {
+      "word": "CEN",
+      "meaning": "欧洲标准化委员会（Comité Européen de Normalisation）"
+    },
+    {
+      "word": "CSC",
+      "meaning": "网络安全认证方案（Cybersecurity Certification Scheme）"
+    },
+    {
+      "word": "Council Regulation",
+      "meaning": "欧盟理事会条例"
+    },
+    {
+      "word": "EC",
+      "meaning": "欧洲共同体（European Community）"
+    },
+    {
+      "word": "ECRIS",
+      "meaning": "欧洲刑事记录信息系统（European Criminal Records Information System）"
+    },
+    {
+      "word": "EDIB",
+      "meaning": "欧洲数字身份框架（European Digital Identity Framework）"
+    },
+    {
+      "word": "EEC",
+      "meaning": "欧洲经济共同体（European Economic Community）"
+    },
+    {
+      "word": "EES",
+      "meaning": "出入境系统（Entry/Exit System）"
+    },
+    {
+      "word": "ELI",
+      "meaning": "欧洲法律标识符（European Legislation Identifier）"
+    },
+    {
+      "word": "EN",
+      "meaning": "欧洲标准（European Norm）"
+    },
+    {
+      "word": "ENISA",
+      "meaning": "欧盟网络安全局（EU Agency for Cybersecurity）"
+    },
+    {
+      "word": "ETIAS",
+      "meaning": "欧洲旅行信息和授权系统（European Travel Information and Authorisation System）"
+    },
+    {
+      "word": "ETS",
+      "meaning": "电子签名技术标准（Electronic Signature Technical Standard）"
+    },
+    {
+      "word": "ETSI",
+      "meaning": "欧洲电信标准化协会（European Telecommunications Standards Institute）"
+    },
+    {
+      "word": "EU",
+      "meaning": "欧洲联盟（European Union）"
+    },
+    {
+      "word": "EUCO",
+      "meaning": "欧洲理事会（European Council）"
+    },
+    {
+      "word": "European Central Bank",
+      "meaning": "欧洲中央银行（ECB）"
+    },
+    {
+      "word": "European Data Protection Supervisor",
+      "meaning": "欧洲数据保护监督员（EDPS）"
+    },
+    {
+      "word": "European Parliament",
+      "meaning": "欧洲议会"
+    },
+    {
+      "word": "European Union",
+      "meaning": "欧洲联盟"
+    },
+    {
+      "word": "HLEG",
+      "meaning": "高级别专家组（High-Level Expert Group）"
+    },
+    {
+      "word": "ICT",
+      "meaning": "信息通信技术（Information and Communication Technology）"
+    },
+    {
+      "word": "IEC",
+      "meaning": "国际电工委员会（International Electrotechnical Commission）"
+    },
+    {
+      "word": "III",
+      "meaning": "第三产业/信息技术基础设施"
+    },
+    {
+      "word": "INL",
+      "meaning": "国际网络实验室（International Network of Laboratories）"
+    },
+    {
+      "word": "ISO",
+      "meaning": "国际标准化组织（International Organization for Standardization）"
+    },
+    {
+      "word": "JHA",
+      "meaning": "司法与内政事务（Justice and Home Affairs）"
+    },
+    {
+      "word": "Joint Undertaking",
+      "meaning": "联合体（欧盟创新联合企业）"
+    },
+    {
+      "word": "KEY",
+      "meaning": "关键/核心要素"
+    },
+    {
+      "word": "MICHEL",
+      "meaning": "法国前总统米歇尔（此处为机构名称缩写）"
+    },
+    {
+      "word": "Member State",
+      "meaning": "成员国"
+    },
+    {
+      "word": "Member States",
+      "meaning": "成员国（复数形式）"
+    },
+    {
+      "word": "New Legislative Framework",
+      "meaning": "新立法框架"
+    },
+    {
+      "word": "OJ",
+      "meaning": "欧盟官方公报（Official Journal）"
+    },
+    {
+      "word": "Official Journal",
+      "meaning": "欧盟官方公报"
+    },
+    {
+      "word": "PIMS",
+      "meaning": "个人信息管理系统（Personal Information Management System）"
+    },
+    {
+      "word": "SIS",
+      "meaning": "申根信息系统（Schengen Information System）"
+    },
+    {
+      "word": "Single Supervisory Mechanism",
+      "meaning": "单一监管机制"
+    },
+    {
+      "word": "TCN",
+      "meaning": "第三国国民（Third-Country National）"
+    },
+    {
+      "word": "TEU",
+      "meaning": "欧洲联盟条约（Treaty on European Union）"
+    },
+    {
+      "word": "TFEU",
+      "meaning": "欧洲联盟运行条约（Treaty on the Functioning of the European Union）"
+    },
+    {
+      "word": "The Commission",
+      "meaning": "欧盟委员会"
+    },
+    {
+      "word": "URL",
+      "meaning": "统一资源定位符（Uniform Resource Locator）"
+    },
+    {
+      "word": "Where Union",
+      "meaning": "在欧盟层面"
+    },
+    {
+      "word": "XII",
+      "meaning": "第十二条/第十二项"
+    }
+  ]
+}

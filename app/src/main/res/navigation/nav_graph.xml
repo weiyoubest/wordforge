@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.wordforge.app.ui.home.HomeFragment"
+        android:label="@string/nav_home" />
+
+    <fragment
+        android:id="@+id/navigation_learn"
+        android:name="com.wordforge.app.ui.learn.LearnFragment"
+        android:label="@string/nav_learn" />
+
+    <fragment
+        android:id="@+id/navigation_review"
+        android:name="com.wordforge.app.ui.review.ReviewFragment"
+        android:label="@string/nav_review" />
+
+    <fragment
+        android:id="@+id/navigation_mistake"
+        android:name="com.wordforge.app.ui.mistake.MistakeFragment"
+        android:label="@string/nav_mistake" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.wordforge.app.ui.profile.ProfileFragment"
+        android:label="@string/nav_profile" />
+
+    <fragment
+        android:id="@+id/navigation_wordbook_manage"
+        android:name="com.wordforge.app.ui.wordbook.WordbookManageFragment"
+        android:label="@string/wordbook_title" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.wordforge.app.ui.settings.SettingsFragment"
+        android:label="@string/settings_title" />
+
+    <dialog
+        android:id="@+id/wordDetailBottomSheet"
+        android:name="com.wordforge.app.ui.worddetail.WordDetailBottomSheet"
+        android:label="单词详情" />
+
+    <action
+        android:id="@+id/action_learn_to_word_detail"
+        app:destination="@id/wordDetailBottomSheet" />
+
+    <action
+        android:id="@+id/action_profile_to_wordbook"
+        app:destination="@id/navigation_wordbook_manage" />
+
+    <action
+        android:id="@+id/action_profile_to_settings"
+        app:destination="@id/navigation_settings" />
+
+    <action
+        android:id="@+id/action_global_home"
+        app:destination="@id/navigation_home"
+        app:popUpTo="@id/navigation_home"
+        app:popUpToInclusive="true" />
+
+</navigation>

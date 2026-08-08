@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WordForge</string>
+    <string name="app_slogan">科学记忆，高效背词</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">首页</string>
+    <string name="nav_learn">学习</string>
+    <string name="nav_review">复习</string>
+    <string name="nav_mistake">错词本</string>
+    <string name="nav_profile">我的</string>
+
+    <!-- Home Page -->
+    <string name="home_search_hint">搜索单词…</string>
+    <string name="home_today_task">今日任务</string>
+    <string name="home_new_words_label">新词</string>
+    <string name="home_review_words_label">复习</string>
+    <string name="home_start_learn">开始学习</string>
+    <string name="home_start_review">开始复习</string>
+    <string name="home_mistake_review">错词复习</string>
+    <string name="home_streak">连续打卡</string>
+    <string name="home_daily_quote">每日一句</string>
+    <string name="home_task_complete">今日任务已完成！</string>
+    <string name="home_no_wordbook">请先选择词库</string>
+
+    <!-- Learn Page -->
+    <string name="learn_title">学习</string>
+    <string name="learn_progress">%1$d / %2$d</string>
+    <string name="learn_tap_to_show">点击查看释义</string>
+    <string name="learn_familiar">熟悉</string>
+    <string name="learn_vague">模糊</string>
+    <string name="learn_unknown">不认识</string>
+    <string name="learn_complete">今日新词已全部学习！</string>
+    <string name="learn_empty_wordbook">当前词库没有单词</string>
+    <string name="learn_tap_more">点击查看更多</string>
+    <string name="learn_detail_next">下一个</string>
+    <string name="learn_continue_prompt">从第 %1$d 个继续？</string>
+    <string name="learn_new_word_progress">%1$d / %2$d 今日新词</string>
+    <string name="learn_pronounce_desc">发音</string>
+    <string name="learn_meaning_label">释义</string>
+    <string name="learn_swipe_left_hint">不认识</string>
+    <string name="learn_swipe_right_hint">认识</string>
+
+    <!-- Review Page -->
+    <string name="review_title">复习</string>
+    <string name="review_waiting_count">共 %1$d 词待复习</string>
+    <string name="review_mistake_alert">有 %1$d 个错词需要复习！</string>
+    <string name="review_mistake_btn">立即复习错词</string>
+    <string name="review_today_due">今日到期</string>
+    <string name="review_tomorrow_due">明日到期</string>
+    <string name="review_this_week_due">本周到期</string>
+    <string name="review_start_all">开始全部复习</string>
+    <string name="review_empty">暂无待复习单词，继续保持！</string>
+
+    <!-- Mistake Book -->
+    <string name="mistake_title">错词本</string>
+    <string name="mistake_count">共 %1$d 个错词</string>
+    <string name="mistake_filter_all">全部</string>
+    <string name="mistake_filter_date">按日期</string>
+    <string name="mistake_filter_wordbook">按词库</string>
+    <string name="mistake_filter_count">按次数</string>
+    <string name="mistake_review_btn">复习</string>
+    <string name="mistake_remove_btn">移除</string>
+    <string name="mistake_empty">暂无错词，继续保持！</string>
+    <string name="mistake_search_empty">未找到匹配的单词</string>
+    <string name="mistake_times">%1$d次</string>
+
+    <!-- Word Detail -->
+    <string name="word_detail_example">例句</string>
+    <string name="word_detail_root_affix">词根词缀</string>
+    <string name="word_detail_synonyms">近义词</string>
+    <string name="word_detail_antonyms">反义词</string>
+    <string name="word_detail_confusable">易混淆词</string>
+    <string name="word_detail_no_data">暂无数据</string>
+
+    <!-- Statistics -->
+    <string name="stats_title">学习统计</string>
+    <string name="stats_study_days">学习天数</string>
+    <string name="stats_total_words">累计词汇</string>
+    <string name="stats_accuracy">正确率</string>
+    <string name="stats_streak_days">连续天数</string>
+    <string name="stats_memory_curve">记忆曲线</string>
+    <string name="stats_daily_chart">每日学习量</string>
+    <string name="stats_calendar">打卡日历</string>
+    <string name="stats_empty">开始学习后这里会展示你的数据</string>
+    <string name="stats_today_learn">今日学习量</string>
+
+    <!-- Wordbook -->
+    <string name="wordbook_title">词库管理</string>
+    <string name="wordbook_current">当前使用</string>
+    <string name="wordbook_builtin">内置词库</string>
+    <string name="wordbook_custom">自定义词库</string>
+    <string name="wordbook_import">导入词库</string>
+    <string name="wordbook_progress">已学 %1$d / %2$d，进度 %3$d%%</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_study_plan">学习计划</string>
+    <string name="settings_daily_new">每日新词数量</string>
+    <string name="settings_target_days">目标天数</string>
+    <string name="settings_appearance">外观</string>
+    <string name="settings_dark_mode">深色模式</string>
+    <string name="settings_pronunciation">发音</string>
+    <string name="settings_auto_play">自动播放发音</string>
+    <string name="settings_speech_speed">发音速度</string>
+    <string name="settings_review_reminder">复习提醒</string>
+    <string name="settings_enable_reminder">启用复习提醒</string>
+    <string name="settings_reminder_time">提醒时间</string>
+    <string name="settings_data">数据</string>
+    <string name="settings_backup">备份数据</string>
+    <string name="settings_restore">恢复数据</string>
+    <string name="settings_clear_data">清除学习数据</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_version">版本</string>
+    <string name="settings_privacy">隐私政策</string>
+    <string name="settings_licenses">开源许可</string>
+    <string name="settings_unit_word">词</string>
+    <string name="settings_unit_day">天</string>
+    <string name="settings_export">导出</string>
+    <string name="settings_import">导入</string>
+    <string name="settings_clear">清除</string>
+    <string name="settings_view">查看</string>
+    <string name="settings_clear_data_confirm">确定要清除所有学习数据吗？此操作不可撤销。</string>
+    <string name="settings_restore_confirm">恢复数据将覆盖当前所有设置，确定继续吗？</string>
+    <string name="settings_backup_success">备份成功</string>
+    <string name="settings_backup_fail">备份失败，请检查存储权限</string>
+    <string name="settings_restore_success">恢复成功，请重启应用</string>
+    <string name="settings_restore_fail">恢复失败，数据格式不正确</string>
+    <string name="settings_clear_success">学习数据已清除</string>
+    <string name="settings_clear_fail">清除失败</string>
+    <string name="dark_mode_follow_system">跟随系统</string>
+    <string name="dark_mode_off">关闭</string>
+    <string name="dark_mode_on">开启</string>
+
+    <!-- Common -->
+    <string name="common_confirm">确认</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_save">保存</string>
+    <string name="common_delete">删除</string>
+    <string name="common_retry">重试</string>
+    <string name="common_back">返回</string>
+    <string name="common_next">下一步</string>
+    <string name="common_start">开始使用</string>
+    <string name="common_skip">跳过</string>
+    <string name="common_loading">加载中…</string>
+    <string name="common_success">操作成功</string>
+    <string name="common_error">操作失败</string>
+    <string name="common_no_network">当前设备不支持</string>
+
+    <!-- Speed options -->
+    <string name="speed_slow">慢</string>
+    <string name="speed_normal">正常</string>
+    <string name="speed_fast">快</string>
+
+    <!-- Splash -->
+    <string name="splash_brand">WordForge</string>
+    <string name="splash_slogan">科学记忆，高效背词</string>
+    <string name="db_init_error">初始化失败，请重启应用</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_page1_title">科学记忆法</string>
+    <string name="onboarding_page1_desc">基于艾宾浩斯遗忘曲线，自动安排复习时间，科学高效</string>
+    <string name="onboarding_page2_title">深度学习</string>
+    <string name="onboarding_page2_desc">词根词缀、近反义词、易混淆词，全方位掌握单词</string>
+    <string name="onboarding_page3_title">纯离线可用</string>
+    <string name="onboarding_page3_desc">无需注册，无需网络，数据安全，随时学习</string>
+
+    <!-- Wordbook Select -->
+    <string name="wordbook_select_title">选择你的词库</string>
+    <string name="wordbook_cet4">CET-4核心词汇</string>
+    <string name="wordbook_cet4_desc">大学英语四级核心4500词</string>
+    <string name="wordbook_cet6">CET-6</string>
+    <string name="wordbook_cet6_desc">5500词</string>
+    <string name="wordbook_kaoyan">考研英语</string>
+    <string name="wordbook_kaoyan_desc">5500词</string>
+    <string name="wordbook_eu_security">欧盟数字安全术语</string>
+    <string name="wordbook_eu_security_desc">欧盟AI法案、数据保护、隐私法规核心术语</string>
+    <string name="wordbook_daily_life">生活词汇</string>
+    <string name="wordbook_daily_life_desc">日常衣食住行高频词汇500词</string>
+    <string name="wordbook_legal">法律词汇</string>
+    <string name="wordbook_legal_desc">法律领域核心术语500词</string>
+    <string name="wordbook_ai">AI词汇</string>
+    <string name="wordbook_ai_desc">人工智能领域核心术语500词</string>
+    <string name="wordbook_select_confirm">确认选择</string>
+    <string name="wordbook_select_start_learning">开始学习</string>
+    <string name="wordbook_select_min">请至少选择一个词库</string>
+
+    <!-- Plan Setup -->
+    <string name="plan_setup_title">每日学习计划</string>
+    <string name="plan_setup_daily_new_hint">每日新词数量</string>
+    <string name="plan_setup_target_days_hint">目标天数</string>
+    <string name="plan_setup_start">开始学习</string>
+    <string name="plan_setup_days_suffix">天</string>
+</resources>

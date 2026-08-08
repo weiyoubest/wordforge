@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- TopAppBar -->
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_back"
+            app:title="@string/learn_title"
+            app:titleTextAppearance="@style/TextAppearance.Material3.TitleLarge" />
+
+        <!-- 进度条 + 进度指示器 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/spacing_md"
+            android:paddingBottom="@dimen/spacing_sm"
+            android:gravity="center_vertical">
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/progress_bar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:trackColor="?attr/colorSurfaceVariant"
+                app:trackThickness="@dimen/progress_bar_height" />
+
+            <TextView
+                android:id="@+id/tv_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_sm"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:textSize="@dimen/text_size_caption" />
+
+        </LinearLayout>
+
+        <!-- 今日新词进度指示器 -->
+        <TextView
+            android:id="@+id/tv_new_word_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/spacing_sm"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:textSize="@dimen/text_size_caption"
+            android:visibility="gone" />
+
+        <!-- 卡片区域（支持滑动） -->
+        <FrameLayout
+            android:id="@+id/card_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingHorizontal="@dimen/spacing_md">
+
+            <!-- 卡片翻转容器（支持左右滑动） -->
+            <FrameLayout
+                android:id="@+id/card_flip_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:clipToPadding="false"
+                android:clipChildren="false">
+
+                <!-- 正面 -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_front"
+                    style="?attr/materialCardViewElevatedStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="24dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/layout_front"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/spacing_xl">
+
+                        <!-- 单词拼写：28sp bold 居中 -->
+                        <TextView
+                            android:id="@+id/tv_word_spelling"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="?attr/colorOnSurface"
+                            android:textSize="28sp"
+                            android:textStyle="bold"
+                            android:gravity="center" />
+
+                        <!-- 音标：浅色小字 -->
+                        <TextView
+                            android:id="@+id/tv_word_phonetic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/spacing_sm"
+                            android:textColor="?attr/colorOnSurfaceVariant"
+                            android:textSize="@dimen/text_size_caption" />
+
+                        <!-- 发音播放按钮（正面） -->
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_pronounce_front"
+                            style="@style/Widget.Material3.Button.IconButton"
+                            android:layout_width="44dp"
+                            android:layout_height="44dp"
+                            android:layout_marginTop="@dimen/spacing_md"
+                            android:contentDescription="@string/learn_pronounce_desc"
+                            app:icon="@android:drawable/ic_media_play"
+                            app:iconTint="?attr/colorOnSurfaceVariant" />
+
+                        <TextView
+                            android:id="@+id/tv_tap_hint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/spacing_lg"
+                            android:text="@string/learn_tap_to_show"
+                            android:textColor="?attr/colorOutline"
+                            android:textSize="@dimen/text_size_caption" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- 背面 -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_back"
+                    style="?attr/materialCardViewElevatedStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    app:cardCornerRadius="24dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/layout_back"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="@dimen/spacing_xl">
+
+                        <!-- 顶部：单词 + 音标 + 发音按钮 -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <!-- 单词拼写：28sp bold -->
+                                <TextView
+                                    android:id="@+id/tv_back_spelling"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="?attr/colorOnSurface"
+                                    android:textSize="28sp"
+                                    android:textStyle="bold" />
+
+                                <!-- 音标：浅色小字 -->
+                                <TextView
+                                    android:id="@+id/tv_back_phonetic"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/spacing_xs"
+                                    android:textColor="?attr/colorOnSurfaceVariant"
+                                    android:textSize="@dimen/text_size_caption" />
+
+                            </LinearLayout>
+
+                            <!-- 发音播放按钮（背面） -->
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_pronounce"
+                                style="@style/Widget.Material3.Button.IconButton"
+                                android:layout_width="44dp"
+                                android:layout_height="44dp"
+                                android:contentDescription="@string/learn_pronounce_desc"
+                                app:icon="@android:drawable/ic_media_play"
+                                app:iconTint="?attr/colorOnSurfaceVariant" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginVertical="@dimen/spacing_md"
+                            android:background="?attr/colorOutline" />
+
+                        <!-- 释义区域（与例句分区域展示） -->
+                        <androidx.core.widget.NestedScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <!-- 释义标题 -->
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/learn_meaning_label"
+                                    android:textColor="?attr/colorOnSurfaceVariant"
+                                    android:textSize="@dimen/text_size_caption"
+                                    android:textStyle="bold" />
+
+                                <!-- 释义内容 -->
+                                <TextView
+                                    android:id="@+id/tv_meaning"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/spacing_xs"
+                                    android:lineSpacingExtra="4dp"
+                                    android:textColor="?attr/colorOnSurface"
+                                    android:textSize="@dimen/text_size_meaning" />
+
+                                <!-- 例句区域 -->
+                                <LinearLayout
+                                    android:id="@+id/layout_example"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/spacing_lg"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/word_detail_example"
+                                        android:textColor="?attr/colorOnSurfaceVariant"
+                                        android:textSize="@dimen/text_size_caption"
+                                        android:textStyle="bold" />
+
+                                    <com.google.android.material.card.MaterialCardView
+                                        style="?attr/materialCardViewOutlinedStyle"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/spacing_xs"
+                                        app:cardCornerRadius="@dimen/card_corner_radius_sm">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical"
+                                            android:padding="@dimen/spacing_md">
+
+                                            <TextView
+                                                android:id="@+id/tv_example_sentence"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:lineSpacingExtra="2dp"
+                                                android:textColor="?attr/colorOnSurface"
+                                                android:textSize="@dimen/text_size_body" />
+
+                                            <TextView
+                                                android:id="@+id/tv_example_translation"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="@dimen/spacing_xs"
+                                                android:lineSpacingExtra="2dp"
+                                                android:textColor="?attr/colorOnSurfaceVariant"
+                                                android:textSize="@dimen/text_size_caption" />
+
+                                        </LinearLayout>
+
+                                    </com.google.android.material.card.MaterialCardView>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.core.widget.NestedScrollView>
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </FrameLayout>
+
+            <!-- 滑动方向提示图标（左：不认识 / 右：认识） -->
+            <ImageView
+                android:id="@+id/iv_swipe_hint_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="-24dp"
+                android:alpha="0"
+                android:contentDescription="@string/learn_swipe_left_hint"
+                android:src="@android:drawable/ic_delete"
+                app:tint="@color/semantic_unknown" />
+
+            <ImageView
+                android:id="@+id/iv_swipe_hint_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="-24dp"
+                android:alpha="0"
+                android:contentDescription="@string/learn_swipe_right_hint"
+                android:src="@android:drawable/ic_menu_agenda"
+                app:tint="@color/semantic_familiar" />
+
+        </FrameLayout>
+
+        <!-- 查看释义按钮（卡片外部，不被滑动touch listener拦截） -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_view_detail"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/learn_tap_more" />
+
+        <!-- 底部认知标记按钮（保留作为备选操作） -->
+        <LinearLayout
+            android:id="@+id/layout_cognition_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/spacing_md"
+            android:paddingVertical="@dimen/spacing_md">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_unknown"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/cognition_button_height"
+                android:layout_marginEnd="@dimen/spacing_sm"
+                android:layout_weight="1"
+                android:text="@string/learn_unknown"
+                app:backgroundTint="@color/semantic_unknown" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_vague"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/cognition_button_height"
+                android:layout_marginHorizontal="@dimen/spacing_xs"
+                android:layout_weight="1"
+                android:text="@string/learn_vague"
+                app:backgroundTint="@color/semantic_vague" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_familiar"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/cognition_button_height"
+                android:layout_marginStart="@dimen/spacing_sm"
+                android:layout_weight="1"
+                android:text="@string/learn_familiar"
+                app:backgroundTint="@color/semantic_familiar" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- 空状态 -->
+    <LinearLayout
+        android:id="@+id/layout_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_xl"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/learn_complete"
+            android:src="@color/md_theme_primary"
+            app:tint="?attr/colorOnSurfaceVariant" />
+
+        <TextView
+            android:id="@+id/tv_empty_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_md"
+            android:text="@string/learn_complete"
+            android:textColor="?attr/colorOnSurface"
+            android:textSize="@dimen/text_size_subtitle" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_empty_back"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_md"
+            android:text="@string/common_back" />
+
+    </LinearLayout>
+
+</FrameLayout>
